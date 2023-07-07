@@ -17,7 +17,7 @@ const open1 = () => {
 const open2 = () => {
   ElNotification({
     title: 'Prompt',
-    message: 'This is a message that does not automatically close',
+    message: 'This is a message that does \n not automatically close',
     duration: 0,
   })
 }
